@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-# Define the URL you want to scrape
+# Paste the URL you want to scrape
 url = 'https://cryptoart.io/artists'
 
 # Set a User-Agent header to mimic a web browser
@@ -17,11 +17,11 @@ if response.status_code == 200:
     # Parse the HTML content of the page
     soup = BeautifulSoup(response.text, 'html.parser')
     
-    # Example: Extract the title of the page
+    # Extract the title of the page
     title = soup.title.string
     print(f"Title: {title}")
     
-    # Example: Extract all the links on the page, excluding disallowed paths
+    # Extract all the links on the page, excluding disallowed paths
     links = soup.find_all('a')
     for link in links:
         href = link.get('href')
