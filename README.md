@@ -1,4 +1,4 @@
-# Web Scraper Project
+# Web Scraper 
 
 ## Description
 
@@ -14,3 +14,7 @@ This project is a simple web scraper built in Python. It retrieves information f
 ## Contributing
 
 Contributions are welcome! If you'd like to enhance or customize this application, feel free to fork this repository and submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
