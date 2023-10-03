@@ -10,3 +10,7 @@ This project is a simple web scraper built in Python. It retrieves information f
 - **Requests**: A Python library for making HTTP requests.
 - **Beautiful Soup**: A Python library for web scraping and parsing HTML.
 - **HTML/CSS**: Used for building the project's web page and styling.
+
+## Contributing
+
+Contributions are welcome! If you'd like to enhance or customize this application, feel free to fork this repository and submit a pull request.
